@@ -31,15 +31,11 @@
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
 		    <url>http://192.168.0.114:8081/repository/wallmart-snapshot/</url>	 
-		     <nexus.login>admin</nexus.login>
-		     <nexus.password>admin123</nexus.password>
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
 		    <url>http://192.168.0.114:8081/repository/wallmart-Release/</url>
-			<nexus.login>admin</nexus.login>
-		<nexus.password>admin123</nexus.password>
 		</repository>
   	</distributionManagement>
 	
