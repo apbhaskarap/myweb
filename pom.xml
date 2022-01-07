@@ -26,18 +26,21 @@
 		</dependency>
 
 	</dependencies>
-	
 	<distributionManagement>
-		 <snapshotRepository>
-		    <id>nexusRepo</id>
-		    <url>http://192.168.0.114:8081/repository/test-snapshot/</url>	 
-		 </snapshotRepository>
-		
-		<repository>
-		    <id>nexusRepo</id>
-		    <url>http://192.168.0.114:8081/repository/test1-Release/</url>
-		</repository>
-  	</distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <url>http://192.168.0.114:8081/repository/test1-Release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <url>http://192.168.0.114:8081/repository/test-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
+
+	
 	
 	<pluginRepositories>
 	    <pluginRepository>    
