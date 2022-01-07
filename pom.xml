@@ -30,12 +30,12 @@
 	<distributionManagement>
 		 <snapshotRepository>
 		    <id>nexusRepo</id>
-		    <url>http://192.168.0.114:8081/repository/wallmart-snapshot/</url>	 
+		    <url>http://192.168.0.114:8081/repository/test-snapshot/</url>	 
 		 </snapshotRepository>
 		
 		<repository>
 		    <id>nexusRepo</id>
-		    <url>http://192.168.0.114:8081/repository/wallmart-Release/</url>
+		    <url>http://192.168.0.114:8081/repository/test1-Release/</url>
 		</repository>
   	</distributionManagement>
 	
